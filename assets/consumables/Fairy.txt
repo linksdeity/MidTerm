@@ -1,0 +1,6 @@
+Fairy
+Consumables
+This tiny magical spirit will heal you if should fall in battle!
+120
+You need a Bottle to carry this!
+Though it will heal you on its own if you fall, it can be used anytime!

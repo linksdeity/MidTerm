@@ -1,0 +1,6 @@
+Hearts (x3)
+Consumables
+These will heal you!
+10
+You can only buy these if you have empty Heart Containers!
+These will heal you right away and cannot be stored for later!

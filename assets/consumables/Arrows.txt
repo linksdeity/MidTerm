@@ -1,0 +1,6 @@
+Arrows (x5)
+Consumables
+Shoot these with your bow to deal damage or hit switches!
+20
+You need a Quiver to carry these!
+These can be lit on fire, or have effects added to them with magic!

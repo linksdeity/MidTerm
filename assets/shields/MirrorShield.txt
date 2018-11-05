@@ -1,0 +1,5 @@
+Mirror Shield
+Shield
+This strong shield is polished and highly reflecive. It can bounce lasers and magic attacks!
+15000
+This shield can also redirect beams of light to hit switches!

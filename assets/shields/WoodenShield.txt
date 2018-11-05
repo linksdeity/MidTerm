@@ -1,0 +1,5 @@
+Wooden Shield
+Shield
+Stronger than it looks, this small wooden shield will block most enemy attacks!
+150
+This shield is flammable, so keep it away from open flames!
