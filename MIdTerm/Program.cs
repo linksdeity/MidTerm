@@ -225,7 +225,7 @@ namespace MIdTerm
                         Console.Write(indexer + " - - ");
                         Console.WriteLine(newItem.ToString());
                         Console.WriteLine(newItem.Description);
-                        Console.WriteLine("DIngredients: " + newItem.Ingrediants);
+                        Console.WriteLine("Ingredients: " + newItem.Ingrediants);
                         Console.WriteLine("Effects: " + newItem.Effects);
                         Console.WriteLine("price: {0} Rupees \n\n", itemList[counter].Price);
                     }
@@ -305,7 +305,6 @@ namespace MIdTerm
             Console.ReadKey(true);
             Console.Clear();
 
-            //user inputs number of correct item and amount they want, these are added to the shopping cart
 
         }
 

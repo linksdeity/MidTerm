@@ -89,7 +89,7 @@ namespace MIdTerm
 
         public static char GetAnyCaseChar(string message, char[] lowerCase, char[] upperCase)
         {   //overload
-            //verify a requested letter key is pressed, regardless of case - from a list of ochar letters
+            //verify a requested letter key is pressed, regardless of case - from a list of char letters
             //returns pressed key in lower case
             while (true)
             {

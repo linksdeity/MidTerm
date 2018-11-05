@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckOut.cs" />
     <Compile Include="Consumables.cs" />
     <Compile Include="Equipment.cs" />
     <Compile Include="Masks.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Payment.cs" />
     <Compile Include="Potions.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +57,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Receipt.cs" />
     <Compile Include="Shields.cs" />
     <Compile Include="Swords.cs" />
     <Compile Include="Validator.cs" />
