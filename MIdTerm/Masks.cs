@@ -8,11 +8,8 @@ namespace MIdTerm
 {
     class Masks : Product
     {
-
         public string Effects { get; set; }
         public string Rumors { get; set; }
-
-
 
     }
 }

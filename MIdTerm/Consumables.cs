@@ -11,7 +11,5 @@ namespace MIdTerm
         public string NeededContainer { get; set; }
         public string Additional { get; set; }
 
-
-
     }
 }

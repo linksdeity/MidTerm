@@ -18,9 +18,9 @@ namespace MIdTerm
             while (true)
             {
                 Console.WriteLine("Welcome to MALOMART! Please select a category from below to buy items, and checkout when you are done!\n\n" +
-                                  "1.) SWORDS\n2.) SHIELDS\n3.) POTIONS\n4.) CONSUMABLES\n5.) MASKS\n\n6.) CHECKOUT!");
+                                  "1.) SWORDS\n2.) SHIELDS\n3.) POTIONS\n4.) CONSUMABLES\n5.) MASKS\n\n6.) CHECK CART!\n");
 
-                int choice = Validator.GetNumber("\nPlease enter in the number for your choice!", 1, 5);
+                int choice = Validator.GetNumber("\nPlease enter in the number for your choice!", 1, 6);
 
                 switch(choice)
                 {
@@ -46,7 +46,7 @@ namespace MIdTerm
                         break;
                     case 6:
                         //checkout
-                        Console.WriteLine("CHECKING OUT!");//------+++
+                        CheckOut.ReviewCart(ShoppingCart);
                         break;
                 }
 
@@ -57,7 +57,7 @@ namespace MIdTerm
                     cartKeeper += product.Price;
                 }
 
-                Console.WriteLine("Current cost of cart: {0}", cartKeeper);
+                Console.WriteLine("Current cost of cart: {0}\n", cartKeeper);
                 
             }
 

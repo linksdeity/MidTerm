@@ -11,6 +11,5 @@ namespace MIdTerm
         public string Ingrediants { get; set; }
         public string Effects { get; set; }
 
-
     }
 }

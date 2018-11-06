@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MIdTerm
 {
-    abstract class Product
+    public abstract class Product
     {
         public string Name { get; set; }
         public string Category { get; set; }

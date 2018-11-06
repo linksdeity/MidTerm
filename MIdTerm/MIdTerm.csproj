@@ -45,6 +45,7 @@
     <Compile Include="CheckOut.cs" />
     <Compile Include="Consumables.cs" />
     <Compile Include="Equipment.cs" />
+    <Compile Include="Itemizer.cs" />
     <Compile Include="Masks.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Payment.cs" />
