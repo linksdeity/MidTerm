@@ -48,14 +48,14 @@ namespace MIdTerm
         {
             Console.Clear();
 
-            Console.WriteLine(grandTotal + " Rupees");
+            Console.WriteLine(grandTotal + " Rupees due...");
             Console.WriteLine("Now paying in RUPEES\n\n");
 
             int amount = Validator.GetNumber("How many Rupees are being paid? (We will not break large amounts more than twice the total) ", grandTotal, (grandTotal * 2));
 
             int change = (amount - grandTotal);
 
-            if (change < 1)
+            if (change >= 1)
             {
                 Console.WriteLine("\n - - - After this transaction, you will receive {0} Rupees in change - - - \n", change );
             }
@@ -85,7 +85,7 @@ namespace MIdTerm
         {
             Console.Clear();
 
-            Console.WriteLine(grandTotal + " Rupees");
+            Console.WriteLine(grandTotal + " Rupees due...");
             Console.WriteLine("Now paying with CARD\n\n");
 
             string cardNumber = Validator.GetString("Please enter a valid card number (####-####-####-####)", @"^(?:\d[ -]*?){13,16}$");
@@ -118,7 +118,7 @@ namespace MIdTerm
 
             Console.Clear();
 
-            Console.WriteLine(grandTotal + " Rupees");
+            Console.WriteLine(grandTotal + " Rupees due...");
             Console.WriteLine("Now paying with BANK / CHECK\n\n");
 
             string checkNumber = Validator.GetString("Please enter a valid 9-digit check/routing number (#########)", @"[0-9]{9}");

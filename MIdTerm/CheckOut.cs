@@ -22,9 +22,11 @@ namespace MIdTerm
             //get prices with tax, subtotal and toal
             int cartKeeper = Itemizer.GetTotal(ShoppingCart);
 
-            Console.WriteLine("\nSub total: {0}", cartKeeper);
+            Console.WriteLine("\nSub Total: {0}", cartKeeper);
 
             int grandTotal = (int)(cartKeeper + (cartKeeper * 0.06));
+
+            Console.WriteLine("\nSales Tax: {0}", (grandTotal - cartKeeper));
 
             Console.WriteLine("\nGrand Total: {0} (after 6% tax)", grandTotal);
 

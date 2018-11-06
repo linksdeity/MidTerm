@@ -23,7 +23,7 @@ namespace MIdTerm
             Console.WriteLine("\nTotal before tax: " + total);
             Console.WriteLine("\nGRAND TOTAL: " + grandTotal);
 
-            Console.WriteLine("\nYou are receiving {0} Rupees in change", change);
+            Console.WriteLine("\n\nYou are receiving {0} Rupees in change\n", change);
 
             Console.WriteLine("Press anything to return to the main menu");
             ShoppingCart.Clear();

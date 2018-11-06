@@ -73,7 +73,11 @@ namespace MIdTerm
             Console.WriteLine("You are viewing the {0} currently...\n\n", category);
 
             //stores the folder name, same as the category name
-            string path = @"C:\Users\tbroughton\source\repos\MIdTerm\assets\" + category;
+            //string path = @"C:\Users\tbroughton\source\repos\MIdTerm\MIdTerm\assets\" + category; - - - testing
+
+            
+
+            string path = "assets/" + category;
 
             //list to store all fo the items we instantiate
 
@@ -297,7 +301,6 @@ namespace MIdTerm
             else
             {
                 Console.Clear();
-
                 Console.WriteLine("NO items added!");
             }
 
