@@ -3,4 +3,4 @@ Potion
 This strange potion is bright green!
 30
 Chu Jelly and Korok Seeds
-Refills your Magic Meter!
+Refills your magic meter!

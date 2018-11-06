@@ -28,6 +28,7 @@ namespace MIdTerm
             Console.WriteLine("Press anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
+            Console.Clear();
         }
 
 
@@ -56,6 +57,8 @@ namespace MIdTerm
             Console.WriteLine("Press anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
+            Console.Clear();
+
 
         }
 
@@ -78,6 +81,7 @@ namespace MIdTerm
             Console.WriteLine("Press anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
+            Console.Clear();
         }
 
     }

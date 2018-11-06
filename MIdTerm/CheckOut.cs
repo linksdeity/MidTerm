@@ -13,7 +13,6 @@ namespace MIdTerm
         {
             Console.Clear();
 
-
             //show list of items currently in the cart
             Console.WriteLine("Your cart currently contains...\n\n");
 
@@ -29,18 +28,34 @@ namespace MIdTerm
 
             Console.WriteLine("\nGrand Total: {0} (after 6% tax)", grandTotal);
 
+            if(ShoppingCart.Count == 0)
+            {
+                Console.WriteLine("\n\nYour cart is empty, press any key to return to the main menu!");
+                Console.ReadKey(true);
+                Console.Clear();
+                return;
+            }
 
             //give option to clear cart or move to payment
-            Console.WriteLine("\nWould you like to check out, or go back to main menu?");
+            Console.WriteLine("\nWould you like to 'c'heck out, or would you like to  go back to main 'm'enu or clear your 's'hopping cart?");
 
-            bool answer = Validator.GetAnyCaseChar("Please enter 'y' for 'y'es, anything else to go back!", 'y','Y');
+            char choice = Validator.GetAnyCaseChar("\npress 'c' to 'c'heck out\npress 's' to clear your 's'hopping cart\npress 'm' to go back to the main 'm'enu.", new char[] { 'c', 's', 'm' }, new char[] { 'C', 'S', 'M' });
 
-            if (answer)
+
+            if (choice == 'c')
             {
                 Payment.CheckingOut(grandTotal, ShoppingCart);
             }
-            else
+            else if (choice == 'm')
             {
+                Console.Clear();
+                return;
+            }
+            else if(choice == 's')
+            {
+                ShoppingCart.Clear();
+                Console.Clear();
+                Console.WriteLine("Emptied cart, returning to main menu!");
                 Console.ReadKey(true);
                 Console.Clear();
                 return;

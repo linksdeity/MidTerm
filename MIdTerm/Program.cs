@@ -277,7 +277,7 @@ namespace MIdTerm
 
             Console.WriteLine("How many {0}s would you like?", itemList[choice-1].ToString());
 
-            int amount = Validator.GetNumber("Please enter the amount you would like to buy (1 -99)", 1, 99);
+            int amount = Validator.GetNumber("Please enter the amount you would like to buy (1 - 10)", 1, 10);
 
             Console.WriteLine("{0} will cost {1} rupees, would you like to add to cart?", amount, (itemList[choice - 1].Price * amount));
 
@@ -292,7 +292,7 @@ namespace MIdTerm
 
                 Console.Clear();
 
-                Console.WriteLine("Items added!");
+                Console.WriteLine("Items added!\n\npress anything to return to menu...");
             }
             else
             {

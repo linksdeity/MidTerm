@@ -15,12 +15,12 @@ namespace MIdTerm
         {
             Console.Clear();
 
-            Console.WriteLine("Your total is: {0}", grandTotal);
+            Console.WriteLine("Your total is: " + grandTotal + " Rupees");
 
             Console.WriteLine("Please select a payment method from bellow...\n\n");
 
-            char selection = Validator.GetAnyCaseChar("Press 'r' to pay with Rupees, press 'c' to pay with " +
-                                                      "card, press 'b' to pay with bank/check number", new char[] { 'r', 'c', 'b' }, new char[] { 'R', 'C', 'B' });
+            char selection = Validator.GetAnyCaseChar("press 'r' to pay with Rupees\npress 'c' to pay with " +
+                                                      "card\npress 'b' to pay with bank/check number", new char[] { 'r', 'c', 'b' }, new char[] { 'R', 'C', 'B' });
 
 
             //1.Rupees 2.Card 3.Check
@@ -48,7 +48,7 @@ namespace MIdTerm
         {
             Console.Clear();
 
-            Console.WriteLine(grandTotal);
+            Console.WriteLine(grandTotal + " Rupees");
             Console.WriteLine("Now paying in RUPEES\n\n");
 
             int amount = Validator.GetNumber("How many Rupees are being paid? (We will not break large amounts more than twice the total) ", grandTotal, (grandTotal * 2));
@@ -85,7 +85,7 @@ namespace MIdTerm
         {
             Console.Clear();
 
-            Console.WriteLine(grandTotal);
+            Console.WriteLine(grandTotal + " Rupees");
             Console.WriteLine("Now paying with CARD\n\n");
 
             string cardNumber = Validator.GetString("Please enter a valid card number (####-####-####-####)", @"^(?:\d[ -]*?){13,16}$");
@@ -118,7 +118,7 @@ namespace MIdTerm
 
             Console.Clear();
 
-            Console.WriteLine(grandTotal);
+            Console.WriteLine(grandTotal + " Rupees");
             Console.WriteLine("Now paying with BANK / CHECK\n\n");
 
             string checkNumber = Validator.GetString("Please enter a valid 9-digit check/routing number (#########)", @"[0-9]{9}");

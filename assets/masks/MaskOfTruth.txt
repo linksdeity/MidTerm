@@ -1,6 +1,6 @@
 Mask of Truth
 Mask
-A white mask with the symbol of the Shieka ornatley carved into it.
+A white mask with the symbol of the Shiekah ornatley carved into it.
 13000
-This mask reacts to the Shieka Gossip Stones and reveals the secrets they have learned.
+This mask reacts to Gossip Stones and reveals the secrets they have learned.
 ... it is said that animal's minds may be read while wearing this mask ...

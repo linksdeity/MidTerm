@@ -1,5 +1,5 @@
 Master Sword
 Weapon
-The blade of evil's bane can now be yours! Shoots lasres with full hearts!
+The blade of evil's bane can now be yours! Shoots lasers with full hearts!
 1000000
-Very High
+Max

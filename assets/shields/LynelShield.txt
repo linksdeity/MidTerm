@@ -1,0 +1,5 @@
+Lynel Shield
+Shield
+This massive shield was taken from a Lynel!
+10000
+This shield has blades on the end, and can deal damage while defending!
