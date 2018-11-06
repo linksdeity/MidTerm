@@ -23,9 +23,9 @@ namespace MIdTerm
             Console.WriteLine("\nTotal before tax: " + total);
             Console.WriteLine("\nGRAND TOTAL: " + grandTotal);
 
-            Console.WriteLine("\n\nYou are receiving {0} Rupees in change\n", change);
+            Console.WriteLine("\n\nYou are receiving {0} Rupees in change", change);
 
-            Console.WriteLine("Press anything to return to the main menu");
+            Console.WriteLine("\nPress anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
             Console.Clear();
@@ -54,7 +54,7 @@ namespace MIdTerm
             Console.WriteLine("\nTotal before tax: " + total);
             Console.WriteLine("\nGRAND TOTAL: " + grandTotal);
 
-            Console.WriteLine("Press anything to return to the main menu");
+            Console.WriteLine("\nPress anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
             Console.Clear();
@@ -78,7 +78,7 @@ namespace MIdTerm
             Console.WriteLine("\nTtotal before tax: " + total);
             Console.WriteLine("\nGRAND TOTAL: " + grandTotal);
 
-            Console.WriteLine("Press anything to return to the main menu");
+            Console.WriteLine("\nPress anything to return to the main menu");
             ShoppingCart.Clear();
             Console.ReadKey(true);
             Console.Clear();

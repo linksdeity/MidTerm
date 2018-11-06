@@ -14,7 +14,6 @@ namespace MIdTerm
             List<Product> ShoppingCart = new List<Product>();
 
 
-
             while (true)
             {
                 Console.WriteLine("Welcome to MALOMART! Please select a category from below to buy items, and checkout when you are done!\n\n" +
@@ -73,14 +72,9 @@ namespace MIdTerm
             Console.WriteLine("You are viewing the {0} currently...\n\n", category);
 
             //stores the folder name, same as the category name
-            //string path = @"C:\Users\tbroughton\source\repos\MIdTerm\MIdTerm\assets\" + category; - - - testing
-
-            
-
             string path = "assets/" + category;
 
-            //list to store all fo the items we instantiate
-
+            //list to store all of the items we instantiate
             List<Product> itemList = new List<Product>();
 
 
