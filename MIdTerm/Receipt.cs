@@ -29,6 +29,7 @@ namespace MIdTerm
             ShoppingCart.Clear();
             Console.ReadKey(true);
             Console.Clear();
+
         }
 
 
